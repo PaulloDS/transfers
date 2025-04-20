@@ -15,9 +15,8 @@ Além disso, o sistema envia notificações (simuladas por um mock de serviço e
 - **Sistema RESTful**: A aplicação segue os princípios de design RESTful.
 
 ## Tecnologias Utilizadas
-- **Java** (ou outra linguagem escolhida)
-- **Framework** (caso utilizado)
-- **Banco de Dados**: Implementação de armazenamento dos dados dos usuários e transferências (pode ser MongoDB ou qualquer outro banco relacional ou não relacional, dependendo da escolha do desenvolvedor).
+- **Java**
+- **Banco de Dados**: PostgreSQL.
 - **Mock de serviços externos**: 
   - Autorização: [https://util.devi.tools/api/v2/authorize](https://util.devi.tools/api/v2/authorize) (GET)
   - Notificação: [https://util.devi.tools/api/v1/notify](https://util.devi.tools/api/v1/notify) (POST)
